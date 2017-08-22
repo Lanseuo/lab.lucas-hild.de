@@ -44,15 +44,40 @@ main {
   background: white;
   color: black;
   text-decoration: none;
+  position: relative;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 20px 15px;
+  padding: 5px 15px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .box:hover {
   background: rgb(244, 244, 244);
+}
+
+.box p {
+  color: black
+}
+
+.box .description {
+  display: none;
+}
+
+.box .languages {
+  font-style: italic;
+  display: none;
+}
+
+.box svg {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 0 5px;;
+}
+
+.show-less {
+  display: none;
 }
