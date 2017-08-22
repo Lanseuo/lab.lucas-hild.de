@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+h1 {
+  font-family: 'Arimo', sans-serif;
+}
+
+p, a, label, h2, h3, h4, li {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+html, body {
+  margin: 0px;
+  background-color: rgb(54, 54, 54);
+}
+
+header {
+  width: 100%;
+  background-color: rgb(17, 152, 222);
+  padding: 50px 0px;
+  text-align: center;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav {
+  margin: auto;
+  width: 12.5%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  overflow: auto;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 15px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(17, 152, 222);
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+form label, form input {
+  margin: 5px auto;
+}
+
+input {
+  text-align: center;
+  width: 100%;
+  margin: 5px auto !important;
+  border: none;
+  padding: 20px 5px;
+}
+
+input[type=submit] {
+  border: none;
+  background-color: rgb(17, 152, 222);
+
+  border-radius: 2.5px;
+}
+
+/* Button */
+.animate {
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.visitButton {
+	padding: 7px 20px;
+  margin: 0px 10px 20px 0px;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.visitButton:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.box {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Cards */
+.card {
+  max-width: 90%;
+  width: 500px;
+  background-color: rgb(222, 151, 7);
+  box-shadow: 1px 0.5px 0.5px gray;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+
+}

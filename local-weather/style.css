@@ -1,0 +1,61 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+ @import url('https://fonts.googleapis.com/css?family=Anton');
+
+body, header {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/default.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
+}
+
+p, i {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#position {
+  font-size: 2em;
+}
+
+#temp {
+  font-size: 4em;
+  cursor: pointer;
+}
+
+#weather {
+  font-size: 1.5em;
+}
+
+#link-lucas {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(86, 117, 159);
+}

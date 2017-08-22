@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="design.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body onload="">
+    <header>
+      <h1>Convert weight</h1>
+    </header>
+
+    <main>
+      <form>
+        <input type="number" id="kilogramsInput" placeholder="Enter Kilograms" onkeyup="convertUnit()" onclick="convertUnit()">
+      </form>
+
+      <div id="gramsOutput" class="box" style="display: none;">
+        <h4>Grams</h4>
+        <p id="gramsOutputValue">4</p>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: rgb(175, 100, 109);
+  font-family: 'Roboto', sans-serif;
+}
+
+#heading {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+main {
+  width: 90%;
+  background: white;
+  margin: 0 auto;
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a:hover {
+  background-color: rgb(148, 23, 131);
+  color: white;
+}
+
+ul {
+  border-bottom: 1px rgb(185, 185, 185) solid;
+}
+
+#info {
+  padding: 20px;
+  text-align: center;
+}
+
+#info h1 {
+  text-align: center;
+}
+
+#info #online {
+  border: none;
+  background: rgb(100, 209, 108);
+  padding: 10px 50px;
+  width: 45%;
+  margin: 20px auto;
+  color: white;
+}
+
+#info #offline {
+  border: none;
+  background: rgb(129, 13, 5);
+  padding: 10px 50px;
+  width: 45%;
+  margin: 20px auto;
+  color: white;
+}
+
+#info img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 150px;
+  border: 10px rgb(175, 100, 109) solid;
+  margin-bottom: 30px;
+}
+
+#info a {
+  text-decoration: none;
+  color: white;
+  background: rgb(87, 60, 255);
+  padding: 10px 50px;
+  margin: 20px auto;
+  border-radius: 2px;
+}
+
+
+#link-lucas {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#link-lucas:hover {
+  color: #303F9F;
+}

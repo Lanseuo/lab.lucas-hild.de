@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookmarker</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="design.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script>
+      $(function(){
+        $("nav").load("../nav.html");
+      });
+    </script>
+  </head>
+  <body onload="fetchBookmarks()">
+    <header>
+      <h1>Bookmark Your Favorite Sites</h1>
+      <nav></nav>
+    </header>
+
+    <main>
+      <form id="insertForm" class="box">
+        <label>Site Name</label><br>
+        <input type="text" id="siteName" placeholder="Site Name"><br>
+        <label>Site URL</label><br>
+        <input type="text" id="siteURL" placeholder="Site URL"><br>
+        <input type="submit" value="Go!">
+      </form>
+
+      <div id="bookmarksResults"></div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+body {
+  background-color: rgb(134, 35, 47);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto 40px auto;
+}
+
+i {
+  background: rgb(68, 119, 115);
+  padding: 15px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#link-lucas {
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+
+#link-lucas:hover {
+  color: #303F9F;
+}
