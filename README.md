@@ -4,6 +4,7 @@ Welcome to my Lab! - My webdevelopment projects
 ## Projects
 
 - [Bookmarker](https://lab.lucas-hild.de/bookmarker)
+- [Calculator](https://lab.lucas-hild.de/calculator)
 - [Converter](https://lab.lucas-hild.de/converter)
 - [Imagerest](https://lanseuolab.herokuapp.com/imagerest/)
 - [Local Weather](https://lab.lucas-hild.de/local-weather)
