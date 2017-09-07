@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+
+  <script src="/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+</head>
+<body>
+  <h1>Pomodoro</h1>
+  <div id="choose">
+    <div id="choose-session" class="box">
+      <p class="choose-title">Session Length</p>
+      <p class="choose-time">
+        <span class="choose-minus">-</span>
+        <span class="choose-number">25</span>
+        <span class="choose-plus">+</span>
+      </p>
+      <p class="choose-start">Start</p>
+    </div>
+
+    <div id="choose-break" class="box">
+      <p class="choose-title">Break Length</p>
+      <p class="choose-time">
+        <span class="choose-minus">-</span>
+        <span class="choose-number">5</span>
+        <span class="choose-plus">+</span>
+      </p>
+      <p class="choose-start">Start</p>
+    </div>
+  </div>
+  <div id="progress">
+    <div id="progressbar"></div>
+    <div id="time">25:00</div>
+  </div>
+  <a id="link-lucas" href="https://lucas-hild.de" target="_blank">by Lucas Hild</a>
+</body>
+</html>

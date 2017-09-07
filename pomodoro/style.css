@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+body {
+  background-color: #455A64;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 5em;
+  text-align: center;
+}
+
+#choose {
+  width: 90%;
+  max-width: 750px;
+  margin: auto;
+}
+
+#choose-session {
+  float: left;
+}
+
+#choose-break {
+  float: right
+}
+
+.box {
+  width: 45%;
+  text-align: center;
+  border: 5px solid rgb(184, 75, 47);
+}
+
+.choose-title {
+  font-size: 1.5em;
+}
+
+.choose-minus, .choose-plus {
+  font-size: 1.7em;
+  cursor: pointer;
+}
+
+.choose-minus:hover, .choose-plus:hover {
+  color: rgb(184, 75, 47);
+}
+
+.choose-number {
+  font-size: 2.5em;
+  margin: 0 20px;
+}
+
+.choose-start {
+  font-size: 2em;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.choose-start:hover {
+  color: rgb(56, 245, 105);
+}
+
+#progress {
+  cursor: pointer;
+}
+
+#progressbar {
+  margin: 350px auto 0 auto;
+  max-width: 500px;
+  width: 90%;
+  /*height: 150px;*/
+}
+
+#time {
+  text-align: center;
+  color: #FFEA82;
+  font-size: 4em;
+  margin-top: -100px;
+}
+
+#link-lucas {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#link-lucas:hover {
+  color: rgb(184, 75, 47);
+}
