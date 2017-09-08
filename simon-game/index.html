@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simon Game</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+
+  <script src="/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <main>
+    <div id="background">
+      <div id="green" class="color"></div>
+      <div id="red" class="color"></div>
+      <div id="yellow" class="color"></div>
+      <div id="blue" class="color"></div>
+    </div>
+    <div id="foreground">
+      <h1>Simon</h1>
+      <div id="switch-row">
+        <div id="count">
+          <div id="count"></div>
+          <div id="display">- -</div>
+          <p>COUNT</p>
+        </div>
+        <div id="start">
+          <div class="button"></div>
+          <p>START</p>
+        </div>
+        <div id="strict">
+          <div id="led"></div>
+          <div class="button"></div>
+          <p>STRICT</p>
+        </div>
+      </div>
+      <div id="switch">
+        <p>OFF</p>
+        <div id="on-off">
+          <div id="on-off-box"></div>
+        </div>
+        <p>ON</p>
+      </div>
+    </div>
+  </main>
+  <a id="link-lucas" href="https://lucas-hild.de" target="_blank">by Lucas Hild</a>
+</body>
+</html>

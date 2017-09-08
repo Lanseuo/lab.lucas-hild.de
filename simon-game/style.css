@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: url("background.jpg");
+  font-family: 'Roboto', sans-serif;
+}
+
+#background {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 600px;
+  height: 600px;
+  border: 35px solid rgb(62, 62, 62);
+  border-radius: 100%;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.color {
+  width: 100%;
+  height: 100%;
+}
+
+#green {
+  background-color: rgb(6, 147, 24);
+  border-top-left-radius: 1000px;
+}
+
+#red {
+  background-color: rgb(172, 39, 19);
+  border-top-right-radius: 1000px;
+}
+
+#yellow {
+  background-color: rgb(219, 223, 31);
+  border-bottom-left-radius: 1000px;
+}
+
+#blue {
+  background-color: rgb(47, 92, 140);
+  border-bottom-right-radius: 1000px;
+}
+
+#foreground {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 1000px;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  line-height: 50px;
+}
+
+#switch-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+}
+
+#count, #start, #strict {
+  text-align: center;
+  /*position: absolute;
+  bottom: 0;*/
+}
+
+#switch-row #count #display {
+  background: rgb(88, 11, 29);
+  width: 50%;
+  margin: 0 auto;
+  padding: 3px 4px;
+  font-size: 3em;
+  color: white;
+  border: 4px solid gray;
+  border-radius: 5px;
+  color: rgb(88, 11, 29);
+}
+
+#switch-row #start .button, #switch-row #strict .button {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  border: 4px solid gray;
+  cursor: pointer;
+}
+
+#switch-row #start {
+  padding-top: 24px;
+}
+
+#switch-row #start .button {
+  background-color: rgb(191, 41, 47);
+}
+
+#switch-row #strict .button {
+  background-color: rgb(240, 197, 52);
+}
+
+#switch-row #strict #led {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(52, 6, 6);
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#switch {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#switch p {
+  display: inline;
+}
+
+#switch div {
+  display: inline-block;
+}
+
+#switch #on-off {
+  background-color: rgb(29, 29, 29);
+  width: 50px;
+  height: 22px;
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+#switch #on-off #on-off-box {
+  background-color: rgb(25, 188, 221);
+  width: 45%;
+  height: 80%;
+  display: block;
+  margin: 2px;
+  float: left; /* change to right */
+}
+
+#link-lucas {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#link-lucas:hover {
+  color: rgb(86, 117, 159);
+}

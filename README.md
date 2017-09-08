@@ -13,6 +13,7 @@ Welcome to my Lab! - My webdevelopment projects
 - [Pomodoro](https://lab.lucas-hild.de/pomodoro)
 - [Pull the Plug](https://lab.lucas-hild.de/pull-the-plug)
 - [Random Quote Machine](https://lab.lucas-hild.de/random-quote-machine)
+- [Simon](https://lab.lucas-hild.de/simon-game)
 - [Tic Tac Toe](https://lab.lucas-hild.de/tic-tac-toe)
 - [Todo](https://lab.lucas-hild.de/todo)
 - [Twitch Streamers](https://lab.lucas-hild.de/twitch-api)
